@@ -1,0 +1,518 @@
+.radiology1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.radiology3{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.radiology4{
+    width: 100px;
+    line-height: 1;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.radiology5{
+    padding-left: 80%;
+}
+
+.radiology7{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+
+.radiology6{
+    font-weight: 500;
+}
+
+.modernradiology{
+    margin-top: 50px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows:  auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+   
+    
+}
+
+.modernradiology3{
+    overflow: hidden;
+    position: relative;
+}
+
+.modernradiology4{
+    overflow: hidden;
+    position: relative;
+}
+
+.modernradiology3:hover .modernradiology1{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+
+}
+
+.modernradiology4:hover .modernradiology2{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+
+}
+.modernradiology1{
+    grid-row: span 2;
+    
+   
+    
+   
+}
+
+
+.advancingradiology{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 65px;
+    font-weight: 500;
+    overflow: hidden;
+  width: 100%;
+   
+  padding: 15px 0;
+}
+
+.advancingradiology2{
+    display: flex;
+ width: 200%;
+  flex-shrink: 0;
+  justify-content: space-around;
+  animation: scrollMarquee 15s linear infinite;
+  
+}
+
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.advancingradiology3:hover{
+    cursor: pointer
+}
+.advancingradiology3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+
+     transform: translate(-50%, -50%);
+}
+
+.esrmembers{
+    margin-top: 50px;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.esrmembers2{
+    color: white;
+    justify-self: center;
+    font-weight: 20px;
+    font-weight: 500;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+
+.esrmembers1 {
+  font-size: 20px;
+  font-weight: bold;
+  animation: countUp 3s ease-out forwards;
+  counter-reset: current-value var(--num); 
+  color: yellow;
+  justify-self: center;
+  font-size: 80px;
+  padding-top: 50px;
+}
+
+
+.esrmembers1::after {
+  content: counter(current-value) "+";
+}
+
+
+@keyframes countUp {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 149167; 
+  }
+}
+
+.esrmembers3{
+    color: white;
+    width: 80%;
+    justify-self: center;
+    font-size: 40px;
+    font-weight: 200;
+    padding-top: 30px;
+}
+
+.professionalorganisation4{
+    padding-right: 50px;
+    line-height: 1.3;
+}
+
+.professionalorganisation{
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 16px;
+    row-gap: 30px;
+}
+
+.professionalorganisation1{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.professionalorganisation2{
+    font-size: 50px;
+}
+.professionalorganisation3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.professionalorganisation6{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.professionalorganisation5{
+    font-size: 18px;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.gatherknowledge{
+    padding-top: 20px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.gatherknowledge3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.medicalimaging{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+
+}
+
+.medicalimaging1{
+    font-size: 140px;
+    font-weight: 500;
+   
+}
+
+.medicalimaging2{
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 80px;
+    line-height: 1.1;
+    
+}
+
+.medicalimaging3{
+    font-size: 20px;
+    padding-top: 100px;
+}
+.medicalimaging4{
+    text-decoration: underline;
+}
+
+.mustread{
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: yellow;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.mustread1{
+    writing-mode: vertical-rl;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.mustread2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.mustread3{
+    background-color: rgb(236, 107, 129);
+    padding: 30px;
+    
+       
+}
+
+
+.mustread4{
+   width: 60px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(161, 7, 53);
+    
+}
+
+.mustread6{
+    font-size: 8px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+.mustread5{
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 0.5;
+    padding-top: 5px;
+}
+
+.mustread7{
+    font-size: 12px;
+    padding-left: 80px;
+    font-weight: 600;
+}
+
+.mustread10{
+    font-size: 25px;
+    padding-top: 40px;
+    width: 350px;
+    line-height: 1;
+}
+
+.mustread11{
+    font-size:40px;
+    width: 200px;
+    line-height: 1;
+    line-height: 1.2;
+    color: rgb(161, 7, 53);
+    padding-top: 5px;
+}
+
+.mustread12{
+    font-size: 15px;
+    width: 200px;
+    padding-top: 5px;
+}
+.mustread8{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.3) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+     
+}
+
+
+.mustread13{
+    width: 200px;
+    
+}
+
+.mustread14{
+    font-size: 25px;
+    width: 500px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+.mustread15{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.mustread16{
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.mustread17{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.reopened{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+}
+
+.reopened{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.reopened1{
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.reopened2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 1.2;
+}
+
+.reopened3{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.reopened4{
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(80, 77, 77, 0.3);
+}
+
+.disclaimer6{
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+
+.disclaimer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+
+.disclaimer1{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline 1px;
+
+}
+
+.disclaimer3{
+    font-size: 15px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    font-weight: 400;
+
+}
+
+.disclaimer7{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.disclaimer4{
+    text-decoration: underline 1px;
+}
+.disclaimer5{
+    font-size: 30px;
+    box-sizing: border-box;
+    border-left: 1px solid rgb(187, 183, 183);
+    width: 500px;
+    padding-left: 30px;
+    margin-left: 50px;
+   font-weight: 400;
+
+}
+.disclaimer7{
+    text-decoration: underline;
+}
+.disclaimer8{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.disclaimer9{
+    display: flex;
+    flex-direction: row;
+}
+
+.disclaimer10{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.disclaimer11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.disclaimer12{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    justify-self: center;
+    
+}

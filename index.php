@@ -1,0 +1,167 @@
+<?php include('includes/header.php') ?>
+<div class="radiology">
+   
+   <div class="radiology1">
+
+      <h1 class="radiology3">ESR</h1>
+      <h4 class="radiology4">EUROPIAN SOCIETY OF RADIOLOGY</h4>
+      <div class="radiology5">
+         <?xml version="1.0" encoding="utf-8"?><a href=""><svg class= "radiology7"version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.879px" height="103.609px" viewBox="0 0 122.879 103.609" enable-background="new 0 0 122.879 103.609" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M10.368,0h102.144c5.703,0,10.367,4.665,10.367,10.367v0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,20.735,0,16.07,0,10.368v0C0,4.665,4.666,0,10.368,0L10.368,0z M10.368,82.875 h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0c0,5.702-4.664,10.367-10.367,10.367H10.368C4.666,103.609,0,98.944,0,93.242l0,0 C0,87.54,4.666,82.875,10.368,82.875L10.368,82.875z M10.368,41.438h102.144c5.703,0,10.367,4.665,10.367,10.367l0,0 c0,5.702-4.664,10.368-10.367,10.368H10.368C4.666,62.173,0,57.507,0,51.805l0,0C0,46.103,4.666,41.438,10.368,41.438 L10.368,41.438z"/></g></svg></a>
+         <h4 class="radiology6">Menu</h4>
+      </div>
+   </div>
+
+   <div class="modernradiology">
+      
+      <img class="modernradiology1" src="image1.jpg" alt="">
+      <img class="modernradiology2" src="image2.png" alt="">
+      <img class="modernradiology2" src="image3.png" alt="">
+     <img class="modernradiology2" src="image4.jpg" alt="">
+      <img class="modernradiology2" src="image5.png" alt="">
+
+   </div>
+
+   <div class="advancingradiology">
+      <div class="advancingradiology2">
+      <span class="advancingradiology1">ADVANCING RADIOLOGY. ADVANCING YOU.</span>
+      <span class="advancingradiology1">ADVANCING RADIOLOGY. ADVANCING YOU.</span>
+      </div>
+
+   <div class="esrmembers">
+      <h4 class="esrmembers1"></h4>
+      <h4  class="esrmembers2">ESR MEMBERS</h4>
+      <h4 class="esrmembers3">The European Society of Radiology (ESR) is an apolitical, non-profit organisation dedicated to strengthening and unifying European radiology to improve the diagnosis, treatment and prevention of diseases while offering their members opportunities to learn, connect and thrive.</h4>
+   </div>
+
+   <div class="professionalorganisation">
+      <h4 class="professionalorganisation1">01</h4>
+      <h4 class="professionalorganisation2"> Who we are</h4>
+      <div class="professionalorganisation3">
+         <h4 class="professionalorganisation4">The ESR is a professional organisation that represents the field of radiology in Europe serving as a platform for radiologists, medical professionals, researchers, and other stakeholders to collaborate, share knowledge, and advance the practice of radiology. Through its numerous services, events and initiatives, the ESR strives to expand and evolve the way radiology is applied, <span class="professionalorganisation6">taking action to improve patient care across the world.</span></h4>
+         
+         <a class="professionalorganisation5" href="">More about us →</a>
+      </div>
+      <h4 class="professionalorganisation1">02</h4>
+      <h4 class="professionalorganisation2">What do we do.</h4>
+       <div class="professionalorganisation3">
+         <h4 class="professionalorganisation4">The ESR carries out ground-breaking work in education, science, research, publications and collaboration with international organisations and societies. It is also internationally renowned for the European Congress of Radiology (ECR), an annual meeting that offers visitors a glimpse into the future of medical imaging and serves not only as a connection hub for medical professionals but also for the companies that evolve radiology with their <span class="professionalorganisation6">game-changing innovations.</span></h4>
+         
+         <a class="professionalorganisation5" href="">More about ECR →</a>
+      </div>
+      <h4 class="professionalorganisation1">03</h4>
+      <div class="professionalorganisation2">How you can benifit</div>
+      <div class="professionalorganisation3"><h4 class="professionalorganisation4">The ESR connects you with the world of medical imaging, keeps you up to date on scientific developments, opens the door to educational programmes and helps you to stay ahead in your profession. And the best thing about it: <span class="professionalorganisation6">A full membership is less than 1 Euro/month!</span></h4>
+         
+         <a class="professionalorganisation5" href="">Become a member →</a></div>
+      
+   </div>
+
+   <div class="gatherknowledge">
+      <div class="gatherknowledge1">
+         <img class="gatherknowledge2" src="image3.jpg" alt="">
+         <h4 class="gatherknowledge3"><a href="">Check out our educational programmes and stay ahead →</a></h4>
+      </div>
+      <div class="gatherknowledge7">
+         <img class="gatherknowledge4" src="image5.jpg" alt="">
+         <h4 class="gatherknowledge3"><a href="">Learn all about our extensive research endeavours →</a></h4>
+      </div>
+      <div class="gatherknowledge5">
+         <img src="image6.jpg" alt="">
+         <h4 class="gatherknowledge3"><a href="">Stay up to date on all things radiology with our journals →</a></h4>
+      </div>
+      <div class="gatherknowledge6">
+         <img src="image7.jpg" alt="">
+         <h4 class="gatherknowledge3"><a href="">The patient's guide for your journey to good health →</h4>
+      </div>
+   </div>
+
+   <div class="medicalimaging">
+      <h2 class="medicalimaging1">News</h2>
+      <h3 class="medicalimaging2">about the ESR and the world 
+of medical imaging.</h3>
+      <h4 class="medicalimaging3">Find older articles
+in our archive <span class="medicalimaging4" >Here</span></h4>
+</div>
+
+   <div class="mustread">
+   <h2 class="mustread1">MUST READ</h2>
+   <div class="mustread2">
+      <div class="mustread3">
+         <div class="mustread4">
+         <h4 class="mustread5">ESR</h4>
+         <h4 class="mustread6">EUROPIAN SOCIETY OF RADIOLOGY</h4>
+         <h4 class="mustread7">EUROPIAN ASSOCIATING NUCLEAR MEDICINE </h4>
+         </div>
+         <div class="mustread8">
+            <div class="mustread9">
+               <h4 class="mustread10">IN SUPPORT OF THE EU SAFE HEARTS PLAN.</h4>
+               <h2 class="mustread11">IMAGING SAVES LIVES</h2>
+               <h4 class="mustread12">THE ROLE OF IMAGING IN IMPROVING CARDIOVASCULAR HEALTH.</h4>
+            </div>
+            <img class="mustread13" src="image8.webp" alt="">
+         </div>
+         
+      </div>
+         <div class="mustread14">
+         <h4 class="mustread15">July 2026</h4>
+         <h2 class="mustread16">Imaging Saves Lives: Report from the European Parliament event on the role of imaging in improving cardiovascular health</h2>
+         <a class="mustread17" href="">Read More →</a>
+      </div>
+      
+   </div>
+
+    <div>
+      
+   </div>
+
+</div>
+
+<div class="reopened">
+      <div class="reopened4">
+         <img  src="image1.jpg" alt="">
+         <h4 class="reopened1">Radiologists at the heart of delivering Europe’s Safe Hearts Plan</h4>
+         <h4 class="reopened2">Brussels/BE, July 3 – Leading radiologists, nuclear medicine physicians, policymakers and patient representatives gathered yesterday at the European Parliament for Imaging ...</h4>
+         <h4  class="reopened3"><a href="">Read More →</a></h4>
+      </div>
+      <div class="reopened4">
+         <img src="image2.png" alt="">
+         <h4 class="reopened1">EC reopened call for European Network of AI-Powered Advanced Screening Centres (until September 10)</h4>
+         <h4 class="reopened2">The European Commission is looking to engage advanced healthcare organisations that are deploying, ...</h4>
+         <h4  class="reopened3"><a href="">Read More →</a></h4>
+      </div>
+      <div class="reopened4">
+         <img src="image3.png" alt="">
+         <h4 class="reopened1">Surging Impact Factors mark winning year for ESR Journals</h4>
+         <h4 class="reopened2">The European Society of Radiology (ESR) is excited to announce the 2025 Impact Factor (IF) for European Radiology, Insights into Imaging, and European Radiology Experimental. </h4>
+         <h4  class="reopened3"><a href="">Read More →</a></h4>
+      </div>
+      <div class="reopened4">
+         <img src="image4.jpg" alt="">
+         <h4 class="reopened1">Join the ESR/IAEA Modern Radiology eBook Webinar on Breast Imaging</h4>
+         <h4 class="reopened2">The European Society of Radiology and the IAEA invite you to a free live webinar on Breast Imaging, taking place online on June 3 from 10:00 to 11:00 CEST.</h4>
+         <h4  class="reopened3"><a href="">Read More →</a></h4>
+      </div>
+
+   </div>
+<div class="disclaimer7">
+   <div class="disclaimer">
+      <a class="disclaimer1" href="">My user login</a>
+      <div class="disclaimer3">
+         <a class="disclaimer4" href="">Terms and Conditions</a>
+         <a class="disclaimer4" href="">Legal Disclaimer</a>
+         <a class="disclaimer4" href="">Cookie Policy</a>
+         <a class="disclaimer4" href="">Data Protection information</a>
+      </div>
+     <div class="disclaimer5">
+   <h4 class="disclaimer6">Can’t find what you’re looking for?
+Get in touch with us <span><a class="disclaimer7"href="">Here</a></ span></h4>
+    </div>
+</div>
+<div class="disclaimer9">
+<h4 class="disclaimer8">Copyright © 2026 European Society of Radiology</h4>
+
+   
+
+<?php include('includes/footer.php'); ?>
+
+
